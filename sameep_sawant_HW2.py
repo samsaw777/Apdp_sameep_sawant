@@ -8,7 +8,7 @@ def mid(length):
         length (int): Length of the sequence (>= 0).
 
     Returns:
-        int: Middle index computed as floor((0 + (length-1)) / 2).
+        int: Middle index computed as floor.
     """
     start = 0
     end = length - 1
